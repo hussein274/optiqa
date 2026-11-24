@@ -1,0 +1,31 @@
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo
+.expo/
+**/.expo/
+
+# Build files
+dist/
+build/
+coverage/
+web-build/
+
+# Native generated files
+ios/Pods/
+android/.gradle/
+android/app/build/
+
+# Logs and system files
+*.log
+.DS_Store
